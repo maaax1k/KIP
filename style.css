@@ -140,6 +140,11 @@ main{
     text-decoration: none;
     text-align: center;
     border-radius: 20px 0 20px 0;
+    transition: 0.3s;
+}
+
+.more-but:hover{
+    filter: brightness(120%);
 }
 
 .contacts{
