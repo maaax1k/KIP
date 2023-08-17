@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+html{
+    margin: 0;
+}
+
 body{
     margin: 0;
     font-family: 'Rubik', sans-serif;
@@ -17,6 +22,18 @@ header{
     flex-direction: row;
     padding: 5px 12.5%;
     justify-content: space-between;
+    height: 90px;
+    transition: 0.2s;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 75%;
+}
+
+.main-sticky{
+    margin-top: 100px;
 }
 
 .logo{
@@ -91,6 +108,40 @@ main{
     width: calc(80% - 140px);
 }
 
+.conf-but{
+    width: calc(20%);
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.conf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-but{
+    width: 100%;
+    padding: 10px 0;
+    background: linear-gradient(#49A4F8, #5A49F8);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+}
+
 .contacts{
     font-size: 14px;
 }
@@ -108,8 +159,8 @@ footer{
 
 .social{
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
     text-decoration: none;
     color: white;
     background: linear-gradient(#49A4F8, #5A49F8);
