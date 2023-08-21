@@ -84,6 +84,29 @@ main{
     margin-left: 50px;
 }
 
+.filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter a{
+    text-decoration: none;
+    color: #5A49F8;
+    background-color: rgba(90, 73, 248, 0.2);
+    padding: 5px 20px;
+    margin: 0 20px;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1);
+}
+
+.filter a:hover{
+    background-color: rgba(90, 73, 248, 0.3);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0);
+    transform: scale(1.1);
+}
+
 .card{
     background-color: white;
     box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.1);
@@ -94,6 +117,24 @@ main{
     margin: 30px 0;
     justify-content: space-between;
 }
+
+.info_h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_h span{
+    margin: 0 10px;
+}
+
+.info_h span a{
+    margin: 0 5px;
+    color: #5A49F8;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 .avatar{
     padding: 20px 20px;
     width: 100px;
